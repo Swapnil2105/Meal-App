@@ -1,0 +1,79 @@
+/* styles.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.back-link {
+    font-size: 16px;
+}
+
+#search-container {
+    padding: 20px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.meal-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.meal-card img {
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.favorite-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-btn:hover {
+    background-color: #0056b3;
+}
+
+.meal-details {
+    padding: 20px;
+}
+
+.favorite-meal {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.favorite-meal img {
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
